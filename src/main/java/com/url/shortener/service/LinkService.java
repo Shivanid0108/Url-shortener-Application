@@ -1,6 +1,8 @@
 package com.url.shortener.service;
 
 import com.url.shortener.entity.Link;
+import com.url.shortener.exception.LinkNotFoundException;
+
 import com.url.shortener.repository.LinkRepository;
 import org.springframework.stereotype.Service;
 
